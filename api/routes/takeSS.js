@@ -34,7 +34,7 @@ router.get('/', function(req, res, next) {
 module.exports = router;
 
 function SSMachine(ws, res) {    
-    var customerKey = 'ed4e3d',
+    var customerKey = '47d9f9',
         secretPhrase = '', 
         options = {
           url : ws.website,
