@@ -8,21 +8,19 @@ function App() {
   async function takeScreenshots() {
     setUploaded(false)
     setLoading(true)
+    
     fetch('http://localhost:9000/takeSS', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
       }
-    }).then(res => res.json()).then(function(res) {
-      fetch('http://localhost:9000/saveGDrive', {
-        method: "POST",
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(res)
-      }).then(res => res.text()).then(res => setLoading(false),setUploaded(true), setTimeout(() => setUploaded(false), 2000))
+    }).then(res => res.text()).then(res => {
+      if (res) {
+        setLoading(false);
+        setUploaded(true);
+        setTimeout(() => setUploaded(false), 2000)
+      }
     })
   }
   return (

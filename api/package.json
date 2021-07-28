@@ -12,6 +12,7 @@
     "express": "~4.16.1",
     "filereader": "^0.10.3",
     "googleapis": "^82.0.0",
+    "got": "^11.8.2",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
