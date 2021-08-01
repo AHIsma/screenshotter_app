@@ -1,4 +1,4 @@
-# Beautiful-readme #
+# Screenshotter App #
 
 Beautiful-readme converts a single readme file into a simple and modern [Bootstrap](http://getbootstrap.com/)-powered static website. Simplicity ([KISS](http://en.wikipedia.org/wiki/KISS_principle)) and clarity are the major design goals of beautiful-readme. For more feature-rich solutions, I recommend having a look at [Sphinx](http://sphinx-doc.org/) and [Beautiful docs](http://beautifuldocs.com/).
 
@@ -44,7 +44,7 @@ Beautiful-readme is written and maintained by [Jan-Philip Gehrcke](http://gehrck
 - Initial release.
 
 ## License ##
-![image](https://user-images.githubusercontent.com/44438283/127773975-dc2f76f5-3e28-4487-bd6d-8c8ac8049b76.png)(http://en.wikipedia.org/wiki/ReStructuredText)
+![image](https://user-images.githubusercontent.com/44438283/127773975-dc2f76f5-3e28-4487-bd6d-8c8ac8049b76.png)
 
 To the extent possible under law, Ismail AIT HADDOU has waived all copyright and related or neighboring rights to this work.
 
