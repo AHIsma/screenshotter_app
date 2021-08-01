@@ -25,7 +25,7 @@ $ npm start
 ![image](https://user-images.githubusercontent.com/44438283/127774302-37a6a4ff-6f62-4355-afcf-dc7a001d402b.png)
 
 ## Changelog ##
-#### Version 1.1.0 (Month dd, YYYY) ####
+#### Version 1.1.0 ####
 - Initial release.
 
 ## License ##
