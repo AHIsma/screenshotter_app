@@ -1,6 +1,6 @@
 # Screenshotter App #
 
-Beautiful-readme converts a single readme file into a simple and modern [Bootstrap](http://getbootstrap.com/)-powered static website. Simplicity ([KISS](http://en.wikipedia.org/wiki/KISS_principle)) and clarity are the major design goals of beautiful-readme. For more feature-rich solutions, I recommend having a look at [Sphinx](http://sphinx-doc.org/) and [Beautiful docs](http://beautifuldocs.com/).
+An application for taking website screenshots automatically. It only requires you to add desired websites to a configuration file and run the application, the rest is all done with a simple ##click## ! 
 
 ## Demo ##
 [Here](http://gehrcke.de/beautiful-readme) (built from *this* readme) and
