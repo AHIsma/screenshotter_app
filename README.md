@@ -1,1 +1,1 @@
-# screenshotter_app
+# Screenshotter App : an application for taking website screenshots automatically
