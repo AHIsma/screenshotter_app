@@ -7,8 +7,7 @@ To run a demonstration locally, a user must :
 
 - First copy the application code to their computer drive.
 
-<img position="absolute" align="right" src="https://user-images.githubusercontent.com/44438283/127774214-43ba782e-4f75-4d0d-b99c-0f3c4a7c5fef.png">
-
+![image](https://user-images.githubusercontent.com/44438283/127774214-43ba782e-4f75-4d0d-b99c-0f3c4a7c5fef.png)
 
 - Secondly you should go to the ```./api/public/ressources/DB.json``` file and modify it according tou your needs.
 
