@@ -28,13 +28,13 @@ function App() {
       
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <button type="button" class={loading ? "col-2 btn btn-warning text-black text-wrap": "col-2 btn btn-success text-white text-wrap"} onClick={takeScreenshots}>
+        <button type="button" className={loading ? "col-2 btn btn-warning text-black text-wrap": "col-2 btn btn-success text-white text-wrap"} onClick={takeScreenshots}>
           {
             loading ? <div>Loading ...</div> : <div>Take screenshots</div>
           }
         </button>
         {
-          uploaded ? <p class="h6 mt-3">Uploaded Successfully to the Drive!</p> : <p></p>
+          uploaded ? <p className="h6 mt-3">Uploaded Successfully to the Drive!</p> : <p></p>
         }
       </header>
     </div>

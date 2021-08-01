@@ -27,13 +27,25 @@ var done
 router.get('/', function(req, res, next) {
     done = 0
     DB.forEach(function(ws) {
-        SSMachine(ws, res)
+        SSMachine(ws)
     })
+
+    callback = function(err) {
+        if (!err) {
+            res.status(200).json({
+                response: 'OK'
+            })
+        } else {
+            res.status(err.status).json({
+                response: err.msg
+            })
+        }
+    }
 });
 
 module.exports = router;
 
-function SSMachine(ws, res) {    
+function SSMachine(ws) {    
     var customerKey = '921622',
         secretPhrase = '', 
         options = {
@@ -51,10 +63,10 @@ function SSMachine(ws, res) {
     
     var SStream = got.stream(screenshotmachine.readScreenshot(apiUrl)['uri']['href'])
     
-    SSave(SSname, SStream, res)
+    SSave(SSname, SStream)
 }
 
-async function SSave(SSname, SStream, res) {
+async function SSave(SSname, SStream) {
     try{
         var media = {
             mimeType: 'image/jpg',
@@ -70,16 +82,12 @@ async function SSave(SSname, SStream, res) {
             media: media
         }, function(err, msg){
             if (err) {
-                res.status(err.status).json({
-                    response: err.msg
-                })
+                callback(err)
                 throw err
             } 
             done += 1
             if (done == length) {
-                res.status(200).json({
-                    response: 'OK'
-                })
+                callback(0)
             }
         })
     }catch(error){
