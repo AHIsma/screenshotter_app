@@ -9,48 +9,24 @@ To run a demonstration locally, a user must :
 
 ![image](https://user-images.githubusercontent.com/44438283/127774214-43ba782e-4f75-4d0d-b99c-0f3c4a7c5fef.png)
 
+- Secondly you should go to the ```./api/public/ressources/DB.json``` file and modify it according tou your needs.
 
 
-## Usage example ##
-Input:
-
-- A small configuration file (default name: `brconfig.py`).
-- A readme file (reStructuredText or Markdown), e.g. `README.rst`.
-
-Execute `$ beautiful-readme README.rst` and a static website is created in the
-`_build` directory.
-
-
-## Features ##
-- [reStructuredText](http://en.wikipedia.org/wiki/ReStructuredText) and [Markdown](http://en.wikipedia.org/wiki/Markdown) support.
-- Modern and reliable HTML5 output (based on the [Bootstrap blog template](http://getbootstrap.com/examples/blog/)).
-- Mobile-friendly responsive layout with professional appearance.
-- Google Analytics snippet support (optional).
-- Custom CSS injection (optional).
-- Custom sidebar HTML code injection (optional).
-
-
-## Installation ##
-Beautiful-readme releases are hosted [on PyPI](https://pypi.python.org/pypi/beautiful-readme). Installation with pip is recommended:
+- Go to each of the ./api and ./client folders and run the command:
 
 ```
-$ pip install beautiful-readme
+$ npm start
 ```
 
+- The website will automatically open in your default browser. 
 
+- The last step is to click on the showcased button !
 
-## Author & License
-Beautiful-readme is written and maintained by [Jan-Philip Gehrcke](http://gehrcke.de>). It is licensed under an MIT license (see LICENSE file).
-
+![image](https://user-images.githubusercontent.com/44438283/127774302-37a6a4ff-6f62-4355-afcf-dc7a001d402b.png)
 
 ## Changelog ##
-#### Version 0.1.0 (Month dd, YYYY) ####
+#### Version 1.1.0 (Month dd, YYYY) ####
 - Initial release.
 
 ## License ##
 ![image](https://user-images.githubusercontent.com/44438283/127773975-dc2f76f5-3e28-4487-bd6d-8c8ac8049b76.png)
-
-To the extent possible under law, Ismail AIT HADDOU has waived all copyright and related or neighboring rights to this work.
-
-
-
