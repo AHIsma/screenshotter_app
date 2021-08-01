@@ -44,7 +44,7 @@ Beautiful-readme is written and maintained by [Jan-Philip Gehrcke](http://gehrck
 - Initial release.
 
 ## License ##
-![image](https://user-images.githubusercontent.com/44438283/127773975-dc2f76f5-3e28-4487-bd6d-8c8ac8049b76.png)
+![image](https://user-images.githubusercontent.com/44438283/127773975-dc2f76f5-3e28-4487-bd6d-8c8ac8049b76.png)(http://en.wikipedia.org/wiki/ReStructuredText)
 
 To the extent possible under law, Ismail AIT HADDOU has waived all copyright and related or neighboring rights to this work.
 
