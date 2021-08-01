@@ -1,10 +1,10 @@
 # Screenshotter App #
 
-An application for taking website screenshots automatically. It only requires you to add desired websites to a configuration file and run the application, the rest is all done with a simple ##click## ! 
+An application for taking website screenshots automatically. It only requires you to add your desired websites to a configuration file and run the application, the rest is all done with a simple click ! 
 
-## Demo ##
-[Here](http://gehrcke.de/beautiful-readme) (built from *this* readme) and
-[here](http://gehrcke.de/timegaps) (built from a readme for another project).
+## Demo / Usage example ##
+To run a demonstration locally, a user must :
+- First copy the application code to their computer drive.
 
 
 ## Usage example ##
