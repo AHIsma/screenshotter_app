@@ -4,6 +4,7 @@ An application for taking website screenshots automatically. It only requires yo
 
 ## Demo / Usage example ##
 To run a demonstration locally, a user must :
+
 - First copy the application code to their computer drive.
 
 ![image](https://user-images.githubusercontent.com/44438283/127774214-43ba782e-4f75-4d0d-b99c-0f3c4a7c5fef.png)
